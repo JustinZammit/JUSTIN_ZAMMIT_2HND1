@@ -46,9 +46,17 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Scripts\backgroundController.js" />
+     <Compile Include="Assets\Scripts\AnimatedTexture.js" />
+     <Compile Include="Assets\Scripts\PlayerAnimate.js" />
+     <Compile Include="Assets\Scripts\TextureFlip.js" />
      <Compile Include="Assets\Scripts\cameraController.js" />
      <Compile Include="Assets\Scripts\characterController.js" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{CAC6488F-6F12-CB69-E28C-6C22B1C38DCE}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{9F94E1CA-7B92-D0EF-7089-5F1696998946}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
