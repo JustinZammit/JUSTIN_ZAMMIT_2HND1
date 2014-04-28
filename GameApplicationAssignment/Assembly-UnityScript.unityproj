@@ -48,9 +48,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimatedTexture.js" />
      <Compile Include="Assets\Scripts\PlayerAnimate.js" />
+     <Compile Include="Assets\Scripts\PlayerRespawn.js" />
+     <Compile Include="Assets\Scripts\SmoothFollow2.js" />
      <Compile Include="Assets\Scripts\TextureFlip.js" />
      <Compile Include="Assets\Scripts\cameraController.js" />
      <Compile Include="Assets\Scripts\characterController.js" />
+     <Compile Include="Assets\Scripts\enemy.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">

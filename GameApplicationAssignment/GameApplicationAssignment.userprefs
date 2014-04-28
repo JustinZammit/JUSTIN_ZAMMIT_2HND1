@@ -1,11 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerAnimate.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerRespawn.js">
     <Files>
-      <File FileName="Assets\Standard Assets\Character Controllers\Sources\Scripts\CharacterMotor.js" Line="79" Column="28" />
-      <File FileName="Assets\Scripts\TextureFlip.js" Line="23" Column="3" />
-      <File FileName="Assets\Scripts\AnimatedTexture.js" Line="6" Column="25" />
-      <File FileName="Assets\Scripts\PlayerAnimate.js" Line="14" Column="18" />
+      <File FileName="Assets\Scripts\PlayerRespawn.js" Line="11" Column="26" />
+      <File FileName="Assets\Scripts\SmoothFollow2.js" Line="10" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
