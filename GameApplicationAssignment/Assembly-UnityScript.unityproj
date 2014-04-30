@@ -47,13 +47,20 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimatedTexture.js" />
+     <Compile Include="Assets\Scripts\MainMenu.js" />
+     <Compile Include="Assets\Scripts\Parallax.js" />
      <Compile Include="Assets\Scripts\PlayerAnimate.js" />
-     <Compile Include="Assets\Scripts\PlayerRespawn.js" />
-     <Compile Include="Assets\Scripts\SmoothFollow2.js" />
+     <Compile Include="Assets\Scripts\PlayerAudio.js" />
+     <Compile Include="Assets\Scripts\PlayerController2.js" />
      <Compile Include="Assets\Scripts\TextureFlip.js" />
      <Compile Include="Assets\Scripts\cameraController.js" />
      <Compile Include="Assets\Scripts\characterController.js" />
-     <Compile Include="Assets\Scripts\enemy.js" />
+     <Compile Include="Assets\Scripts\enemyGen.js" />
+     <Compile Include="Assets\Scripts\enemyGenCharacter.js" />
+     <Compile Include="Assets\Scripts\fireGen.js" />
+     <Compile Include="Assets\Scripts\laserController.js" />
+     <Compile Include="Assets\Scripts\laserShooter.js" />
+     <Compile Include="Assets\Scripts\visibleScreen.js" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
