@@ -12,13 +12,6 @@ var fireshield : boolean;
 var textStyle:GUISkin;
 
 function OnTriggerEnter (other: Collider) {
-
-		//when the player hits the life, the lives will increase +1		
-		if(other.tag == "life")
-		{
-		Destroy(other.gameObject);
-		lives=lives+1;
-		}
 		
 		//count how many fires collected
 		if(other.tag == "fire")
@@ -33,7 +26,7 @@ function OnTriggerEnter (other: Collider) {
 		score=score+1;
 		
 		}
-		
+				
 		//when fire collected is equal to 5, the shield will power up the player. Only once can be used.
 		if (fire==5)
 		{
@@ -56,26 +49,24 @@ function OnTriggerEnter (other: Collider) {
 		if((other.tag == "enemy") && (fireshield == false)){
 		Destroy(other.gameObject);
 		lives=lives-1;
+		
 		}
 		
 	}
-	
-//when lives is equal to 0, restart Level 2	
+
+//when lives is equal to 0, restart Level 1
 function checklives() {
 	if (lives<=0) {
+	Application.LoadLevel("Level1");
+	}
+}
+
+//when scoring total of 30, Start Level 2
+function checkscore() {
+	if (score==15) {
 	Application.LoadLevel("Level2");
 	}
 }
-
-//when scoring total of 30, Start Level 3
-function checkscore() {
-		
-	if (score>=30) {
-	Application.LoadLevel("Level3");
-	}
-}
-
-
 	
 //displaying the score and lives on screen
 function OnGUI()
@@ -85,7 +76,7 @@ function OnGUI()
 	GUI.Label(Rect(5,5,150,50),"Score: "+score);
 	GUI.Label(Rect(160,5,150,50),"Lives: "+lives);
 
-	//this is to check that fires collecting is counting correctly //GUI.Label(Rect(315,5,150,50),"Fire: "+fire);
+	//GUI.Label(Rect(315,5,150,50),"Fire: "+fire);
 }
 
 //when the game starts

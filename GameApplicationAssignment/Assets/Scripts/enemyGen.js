@@ -1,6 +1,6 @@
 ﻿#pragma strict
-//This script will generate ufos in a random position
-//between x=8 to 11 and  y=-4 to 4 every second
+//This script will generate rocks in a random position
+//between x=14 to 16 and  y=-8 every 5 seconds
 
 var enemy:Rigidbody;
 
@@ -24,8 +24,8 @@ function createEnemy()
 }
 
 function Start () {
- //parameter 1: wait 1.0 seconds
- //parameter 2: every 1.2 seconds
+ //parameter 1: wait 5.0 seconds
+ //parameter 2: every 8.0 seconds
  InvokeRepeating("createEnemy",5.0,8.0);
 }
 
@@ -33,6 +33,7 @@ function Update () {
 
 }
 
+//destroy the object when the object had left the screen
 function OnBecameInvisible()
 {
 	Destroy(this.gameObject);

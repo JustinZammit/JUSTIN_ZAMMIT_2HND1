@@ -3,7 +3,7 @@
 var isQuit = false;
 
 
-//change text color to green on mouse roll over
+//change text color to cyan on mouse roll over
 function OnMouseEnter(){
 	guiText.material.color= Color.cyan;
 }
