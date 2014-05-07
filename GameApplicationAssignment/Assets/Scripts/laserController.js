@@ -9,22 +9,22 @@ function Start () {
 function OnTriggerEnter(other:Collider)
 {
 	//if the laser hits an enemy, we will do the following two things:
-	//Destroy the laser
 	//Destroy the enemy
+	//Destroy the laser
+	
 	if(other.tag == "enemy"){
 		Destroy(other.gameObject);
 		//score=score+1;
 		PlayerController2.score++;
 		
-		
 		//destroy the enemy
 		Destroy(other.gameObject);
 		//destroy the laser
-		Destroy(this.gameObject);
+        Destroy(this.gameObject);
+		
 	}
 
 }
-
 
 function Update () {
 	//move the laser FORWARD

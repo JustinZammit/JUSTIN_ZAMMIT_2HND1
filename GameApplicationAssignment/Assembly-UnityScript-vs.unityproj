@@ -47,11 +47,14 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\AnimatedTexture.js" />
+     <Compile Include="Assets\Scripts\BackMain.js" />
+     <Compile Include="Assets\Scripts\Instructions.js" />
      <Compile Include="Assets\Scripts\MainMenu.js" />
      <Compile Include="Assets\Scripts\Parallax.js" />
      <Compile Include="Assets\Scripts\PlayerAnimate.js" />
      <Compile Include="Assets\Scripts\PlayerAudio.js" />
      <Compile Include="Assets\Scripts\PlayerController2.js" />
+     <Compile Include="Assets\Scripts\Shield.js" />
      <Compile Include="Assets\Scripts\TextureFlip.js" />
      <Compile Include="Assets\Scripts\cameraController.js" />
      <Compile Include="Assets\Scripts\characterController.js" />
@@ -60,6 +63,7 @@
      <Compile Include="Assets\Scripts\fireGen.js" />
      <Compile Include="Assets\Scripts\laserController.js" />
      <Compile Include="Assets\Scripts\laserShooter.js" />
+     <Compile Include="Assets\Scripts\loadLevelName.js" />
      <Compile Include="Assets\Scripts\visibleScreen.js" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>

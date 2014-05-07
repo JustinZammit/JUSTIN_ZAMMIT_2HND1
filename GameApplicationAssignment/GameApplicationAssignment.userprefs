@@ -1,9 +1,12 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PlayerController2.js">
     <Files>
-      <File FileName="Assets\Scripts\visibleScreen.js" Line="18" Column="2" />
-      <File FileName="Assets\Scripts\PlayerController2.js" Line="30" Column="15" />
+      <File FileName="Assets\Scripts\MainMenu.js" Line="23" Column="11" />
+      <File FileName="Assets\Scripts\Instructions.js" Line="24" Column="2" />
+      <File FileName="Assets\Scripts\BackMain.js" Line="9" Column="1" />
+      <File FileName="Assets\Scripts\Shield.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController2.js" Line="35" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
