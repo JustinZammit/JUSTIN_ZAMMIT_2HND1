@@ -67,10 +67,10 @@ function checklives() {
 	}
 }
 
-//when scoring total of 30, Start Level 3
+//when scoring total of 35, Start Level 3
 function checkscore() {
 		
-	if (score>=30) {
+	if (score>=35) {
 	Application.LoadLevel("Level3");
 	}
 }
