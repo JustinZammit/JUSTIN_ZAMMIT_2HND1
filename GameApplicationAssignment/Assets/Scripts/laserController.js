@@ -18,6 +18,7 @@ function OnTriggerEnter(other:Collider)
 		//score=score+1;
 		PlayerController2.score++;
 		PlayerController3.score++;
+		PlayerController4.score++;
 		//destroy the enemy
 		Destroy(other.gameObject);
 		//destroy the laser

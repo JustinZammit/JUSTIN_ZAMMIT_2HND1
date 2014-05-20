@@ -14,7 +14,7 @@ function OnTriggerEnter (other: Collider)
 		lives=lives+1;
 		}
 //when the player hits the enemy, the lives will decrease -1		
-		if(other.gameObject.tag=="enemy")
+		if(other.gameObject.tag=="enemy" || other.gameObject.tag=="enemyCharacter")
 		{
 //decrease lives by 1
 		lives--;
@@ -28,7 +28,7 @@ function checklives()
 {
 	if (lives<=0) 
 	{
-	Application.LoadLevel("Level3");
+	Application.LoadLevel("TryAgainLevel3");
 	}
 }
 
@@ -37,7 +37,7 @@ function checkscore()
 {
 	if (score>=60) 
 	{
-	Application.LoadLevel("GameWon");
+	Application.LoadLevel("Level4");
 	}
 }
 

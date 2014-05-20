@@ -1,17 +1,19 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\explosionController.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Try4.js">
     <Files>
-      <File FileName="Assets\Scripts\explosionController.js" Line="11" Column="1" />
-      <File FileName="Assets\Scripts\enemyGenCharacter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\enemyLaser.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController4.js" Line="34" Column="39" />
+      <File FileName="Assets\Scripts\BladeBulletController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\explosionController.js" Line="1" Column="1" />
       <File FileName="Assets\Scripts\laserController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\boneController.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\laserShooter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\boneShooter.js" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\thunderController.js" Line="32" Column="2" />
-      <File FileName="Assets\Scripts\thunderShooter.js" Line="17" Column="3" />
-      <File FileName="Assets\Scripts\PlayerController3.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\bossController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\EnemyCharacterController.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BackMain.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Try1.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController1.js" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PlayerController3.js" Line="31" Column="39" />
+      <File FileName="Assets\Scripts\Try3.js" Line="21" Column="50" />
+      <File FileName="Assets\Scripts\Try4.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

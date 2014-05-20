@@ -1,0 +1,93 @@
+Initialize engine version: 4.3.4f1 (e444f76e01cd)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 9.0c [igdumd32.dll 8.15.10.2712]
+    Renderer: Intel(R) HD Graphics 4000
+    Vendor:   Intel
+    VRAM:     880 MB (via DXGI)
+    Caps:     Shader=30 DepthRT=1 NativeDepth=1 NativeShadow=1 DF16=1 INTZ=1 RAWZ=0 NULL=1 RESZ=1 SlowINTZ=0
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\Assembly-UnityScript.dll (this message is harmless)
+Loading C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\Assembly-UnityScript.dll into Unity Child Domain
+- Completed reload, in  0.047 seconds
+desktop: 1600x900 60Hz; virtual: 1600x900 at 0,0
+<RI> Initializing input.
+<RI> Input initialized.
+UnloadTime: 0.395365 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 123.
+Total: 0.788775 ms (FindLiveObjects: 0.015149 ms CreateObjectMapping: 0.009774 ms MarkObjects: 0.068907 ms  DeleteObjects: 0.050336 ms)
+
+UnloadTime: 0.277097 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 4 unused Assets to reduce memory usage. Loaded Objects now: 170.
+Total: 0.526338 ms (FindLiveObjects: 0.008308 ms CreateObjectMapping: 0.007819 ms MarkObjects: 0.052780 ms  DeleteObjects: 0.014661 ms)
+
+The referenced script on this Behaviour is missing!
+ 
+(Filename:  Line: 1699)
+
+UnloadTime: 0.294691 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 66 unused Assets to reduce memory usage. Loaded Objects now: 274.
+Total: 0.684680 ms (FindLiveObjects: 0.013683 ms CreateObjectMapping: 0.009285 ms MarkObjects: 0.065975 ms  DeleteObjects: 0.121688 ms)
+
+Platform assembly: C:\JUSTIN_ZAMMIT_2HND1\SaveTheForest_Data\Managed\Boo.Lang.dll (this message is harmless)
+NullReferenceException: Object reference not set to an instance of an object
+  at visibleScreen.OnBecameInvisible () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at visibleScreen.OnBecameInvisible () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 13.151142 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 357.
+Total: 0.672462 ms (FindLiveObjects: 0.015638 ms CreateObjectMapping: 0.011729 ms MarkObjects: 0.134883 ms  DeleteObjects: 0.035675 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at visibleScreen.OnBecameInvisible () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at visibleScreen.OnBecameInvisible () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 3.204949 ms
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 96 unused Assets to reduce memory usage. Loaded Objects now: 183.
+Total: 1.397706 ms (FindLiveObjects: 0.018570 ms CreateObjectMapping: 0.012706 ms MarkObjects: 0.135372 ms  DeleteObjects: 0.565435 ms)
+
+UnloadTime: 0.362621 ms
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 355.
+Total: 0.873810 ms (FindLiveObjects: 0.020037 ms CreateObjectMapping: 0.014172 ms MarkObjects: 0.166160 ms  DeleteObjects: 0.028345 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at visibleScreen.OnBecameInvisible () [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+UnloadTime: 2.047199 ms
+Unloading 1 Unused Serialized files (Serialized files now loaded: 0 / Dirty serialized files: 0)
+
+Unloading 94 unused Assets to reduce memory usage. Loaded Objects now: 206.
+Total: 8.800660 ms (FindLiveObjects: 0.019059 ms CreateObjectMapping: 0.013683 ms MarkObjects: 0.138793 ms  DeleteObjects: 7.949819 ms)
+

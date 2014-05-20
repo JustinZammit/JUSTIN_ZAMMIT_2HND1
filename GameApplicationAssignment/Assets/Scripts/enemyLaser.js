@@ -9,6 +9,7 @@ function OnTriggerEnter(other:Collider)
 		//decrease lives
 		PlayerController2.lives--;
 		PlayerController3.lives--;
+		PlayerController4.lives--;
 		
 		//remove the enemy laser from the scene
 		Destroy(this.gameObject);

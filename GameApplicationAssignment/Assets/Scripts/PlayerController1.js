@@ -57,7 +57,7 @@ function OnTriggerEnter (other: Collider) {
 //when lives is equal to 0, restart Level 1
 function checklives() {
 	if (lives<=0) {
-	Application.LoadLevel("Level1");
+	Application.LoadLevel("TryAgainLevel1");
 	}
 }
 
