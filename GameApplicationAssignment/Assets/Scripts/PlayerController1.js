@@ -2,7 +2,7 @@
 
 //declaring varibales
 static var score:int=0;
-static var lives:int=5;
+static var lives:int=6;
 
 //declare variable for the shield: upon collecting 5 fires, a fire shield will power up the player
 var fire : int;
